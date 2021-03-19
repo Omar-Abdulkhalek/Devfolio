@@ -1,0 +1,222 @@
+
+
+/* extra small screen */
+@media all and (max-width:576px)
+{
+
+    
+    /* header */
+
+    header .main-title{
+        font-size: 2rem;
+        
+        
+    
+    }
+
+    header .sub-title span::after{
+        font-size: 1.5rem;
+    }
+
+
+    /* about-me */
+    .about-me .img-cont{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .about-me .text-cont{
+        
+        margin-bottom: 10px;
+    }
+
+    .about-me .text-cont .second , .about-me .text-cont .first {
+        margin: 10px 0;
+    }
+
+    .about-me .about{
+        margin-top: 20px;
+        
+    }
+
+
+    /* services */
+    .title-cont p::after{
+        
+        width: 10%;
+    }
+
+    .services .child{
+
+        margin-top: 48px;
+    }
+
+
+    /* portfolio */
+
+    .portfolio .one{
+        margin-top: 48px;
+    }
+
+    /* contact */
+
+    .contact .child-1{
+        margin-bottom: 50px;
+    }
+
+
+    .contact .icons{
+        width: 52%;
+        margin: auto;
+        
+    }
+
+
+    .analysis{
+            height: 150vh;
+    }
+}
+
+
+
+
+/*small screen */
+@media all and (min-width:577px) and (max-width:768px)
+{
+
+    /* header */
+    header .main-title{
+        font-size: 2.8rem;
+        width: 100%;
+    
+    }
+
+    header .sub-title span::after{
+        font-size: 1.9rem;
+    }
+
+
+    /* about-me */
+    .about-me .img-cont{
+        
+        margin-bottom: 30px;
+    }
+
+
+    .about-me .text-cont .second{
+        padding-left: 5px;
+        
+    }
+
+
+    .about-me .about{
+        margin-top: 25px;
+       
+    }
+
+
+    
+    /* services */
+    .title-cont p::after{
+        
+        width: 10%;
+    }
+
+    .services .child{
+
+        margin-top: 48px;
+    }
+
+    /* portfolio */
+
+    .portfolio .one{
+        margin-top: 48px;
+    }
+
+    /* contact */
+
+    .contact .child-1{
+        margin-bottom: 50px;
+    }
+
+    .contact .icons{
+        width: 52%;
+        margin: auto;
+        
+    }
+
+    .analysis{
+        height: 150vh;
+    }
+}
+
+
+
+
+
+/* medium screen */
+@media all and (min-width:769px) and (max-width:992px)
+{
+
+    /* header */
+    .about-me .img-cont{
+        
+        margin-bottom: 30px;
+        
+    }
+
+    .about-me .text-cont .first{
+        width: 100%;
+    }
+
+
+    /* services */
+    .title-cont p::after{
+        
+        width: 7%;
+    }
+
+}
+
+
+
+/* large screen */
+@media all and (min-width:993px) and (max-width:1200px)
+{
+
+    /* about-me */
+    .about-me .img-cont{
+        
+        margin-bottom: 40px;
+    }
+
+
+    .about-me .text-cont .second{
+        padding-left: 10px;
+        
+    }
+
+}
+
+
+
+
+/* extra large screen */
+@media all and (min-width:1201px) 
+{
+
+    /* about-me */
+    .about-me .img-cont{
+        
+        margin-bottom: 40px;
+    }
+
+
+    .about-me .text-cont .second{
+        padding-left: 10px;
+        
+    }
+
+
+}
+
